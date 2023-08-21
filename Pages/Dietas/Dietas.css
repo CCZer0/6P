@@ -6,7 +6,17 @@
     padding: 30px;
 }
 
-nav{
+.ativo::after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: var(--cor-primaria);
+    display: block;
+    border-radius: 20px;
+    margin: 10px 0px 0px 18px;
+}
+
+nav.links{
     background-color: var(--cor-segundaria);
     padding: 5px 0px 5px 0px;
 }
@@ -32,4 +42,21 @@ nav ul.lista-Links li a {
 nav ul.lista-Links li a:hover {
     background-color: #3498db;
     color: #fff;
+}
+
+nav.dietas{
+    background-color: #fff;
+    margin: 30px 0px 60px 0px;
+}
+
+nav.dietas ul.ListaOpcoes{
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav.dietas ul.ListaOpcoes a{
+    font-weight: bold;
+    color: var(--cor-primaria);
 }
