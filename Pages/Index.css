@@ -1,0 +1,35 @@
+.Logo{
+  color: white;
+  text-align: center;
+  background-color: #3498db;
+  text-align: center;
+  padding: 30px;
+}
+
+nav{
+  background-color: var(--cor-segundaria);
+  padding: 5px 0px 5px 0px;
+}
+
+nav ul.lista-Links{
+  gap: 30px;
+  display: flex;
+  padding: 25px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul.lista-Links li a {
+  padding: 10px;
+  transition: 0.3s;
+  font-weight: bold;
+  border-radius: 5px;
+  color: var(--cor-primaria);
+  border: 1px solid #ccc;
+}
+
+
+nav ul.lista-Links li a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
